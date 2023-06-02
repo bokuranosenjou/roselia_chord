@@ -12,8 +12,8 @@
 - roselia_songs.py : スクレイピング対象の曲リスト
 
 ## 使い方
-'''
+```
 pip3 install -r requirements.txt
 python3 scraping.py
 python3 chord.py
-'''
+```
