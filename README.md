@@ -8,5 +8,12 @@
 
 ## ファイル
 - scraping.py : スクレイピング用のスクリプト
-- chord.py :　コード進行からword2vecでベクトル表現を獲得し、推論を行う。
+- chord.py　:　コード進行からword2vecでベクトル表現を獲得し、推論を行う。
 - roselia_songs.py : スクレイピング対象の曲リスト
+
+## 使い方
+'''
+pip3 install -r requirements.txt
+python3 scraping.py
+python3 chord.py
+'''
